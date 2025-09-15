@@ -11,7 +11,7 @@ public class MaxAreaInHistogram {
         // Next smaller right O(n)
         Stack<Integer> s = new Stack<>();
 
-        for (int i = arr.length - 1; i >= 0; i++) {
+        for (int i = arr.length - 1; i >= 0; i--) {
             while (!s.isEmpty() && arr[s.peek()] >= arr[i]) {
                 s.pop();
             }
