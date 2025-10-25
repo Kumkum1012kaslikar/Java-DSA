@@ -1,6 +1,5 @@
-package Queue;
+package queue;
 
-import java.util.*;
 
 public class circularQueueUsingArray {
     static class Queue {
