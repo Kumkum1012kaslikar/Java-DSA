@@ -1,3 +1,4 @@
+package Patter1n;
 public class p5 {
 
     public static void h_r(int r, int c){

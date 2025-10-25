@@ -1,3 +1,4 @@
+package Patter1n;
 public class p10 {
     public static void main(String[] args) {
         int n=6;

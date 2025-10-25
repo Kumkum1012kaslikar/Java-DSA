@@ -1,3 +1,4 @@
+package Patter1n;
 public class p4 {
     public static void main(String[] args) {
         char a='A';
