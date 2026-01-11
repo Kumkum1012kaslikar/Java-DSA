@@ -28,7 +28,6 @@ public class Digonal {
         sum += matrix[i][(matrix.length - 1 - i)];
       }
     }
-
     return sum;
   }
 

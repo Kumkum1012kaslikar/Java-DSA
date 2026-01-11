@@ -27,7 +27,7 @@ public class Spiral {
             }
 
             // left
-            for (int j = endRow - 1; j >= startRow; j--) {
+            for (int j = endRow - 1; j > startRow; j--) {
                 if (startCol == endCol) {
                     break;
                 }
