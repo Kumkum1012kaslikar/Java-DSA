@@ -2,8 +2,8 @@ package arrays_2D;
 
 public class snakePattern {
     public static void k(int[][] matrix) {
-         int m = matrix.length;
-        int n = matrix[0].length;
+         int m = matrix.length; //r
+        int n = matrix[0].length; //c
         for(int i=0;i<m;i++){
             if(i%2 == 0){
                 for(int j=0;j<n;j++){
